@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ja010.training601.Main5Activity">
+
+    <Button
+        android:id="@+id/bu"
+        android:onClick="ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="READING PAGE" />
+
+    <Button
+        android:id="@+id/bu2"
+        android:onClick="ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RSS" />
+
+    <Button
+        android:id="@+id/bu3"
+        android:onClick="ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN" />
+</LinearLayout>
